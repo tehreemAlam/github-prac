@@ -1,0 +1,1 @@
+print("hello kaya hal mai thk ")
