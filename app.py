@@ -1,1 +1,3 @@
-print("hello kaya hal mai thk ")
+git init
+git status 
+
