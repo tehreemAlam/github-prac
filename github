@@ -1,0 +1,25 @@
+expenses = []
+
+while True:
+    item = input("\nEnter expense name (or 'done' to finish): ")
+
+    if item.lower() == "done":
+        break
+
+    amount = float(input("Enter amount: "))
+
+    expenses.append({
+        "item": item,
+        "amount": amount
+    })
+
+total = 0
+
+print("\n--- EXPENSES ---")
+
+for expense in expenses:
+    print(expense["item"], ":", expense["amount"])
+    total += expense["amount"]
+
+print("----------------")
+print("Total:", total)
