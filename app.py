@@ -9,6 +9,15 @@ git add<file>
 git push origin master
 git push origin main
 git switch <branch name>
+cd.git
+git push -v origin master
+ls -a
+git log --oneline
+git remote ser -url origin https..
+  git remote add origin.....
+git restore <file>
+git commit -m "msg"
+
 
 
 
