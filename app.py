@@ -25,7 +25,11 @@ git commit -m
 git diff
 git show
 git clone URL
-git merge name
+git merge name 
+git branch 
+git show 
+git --version
+
 
 
 
