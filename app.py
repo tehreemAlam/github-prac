@@ -17,6 +17,16 @@ git remote ser -url origin https..
   git remote add origin.....
 git restore <file>
 git commit -m "msg"
+git log 
+ls
+ls -a
+cd .git
+git commit -m
+git diff
+git show
+git clone URL
+git merge name
+
 
 
 
