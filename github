@@ -23,3 +23,20 @@ for expense in expenses:
 
 print("----------------")
 print("Total:", total)
+
+
+total = 0
+
+expenses = []
+
+expenses.append(["Food", 500])
+expenses.append(["Transport", 200])
+expenses.append(["Books", 800])
+
+for expense in expenses:
+    print(expense[0], ":", expense[1])
+
+for expense in expenses:
+    total = total + expense[1]
+
+print("Total expenses:", total)
